@@ -1,4 +1,6 @@
 @import './reset';
+@import './components/ButtonMic';
+
 
 body {
     background-image: url(..\static\170302main_image_feature_ys_768_full.jpg);
@@ -14,4 +16,9 @@ body {
     position: absolute;
     z-index: 1;
     opacity: 0.3;
+  }
+
+  .app {
+    position: absolute;
+    z-index: 2;
   }

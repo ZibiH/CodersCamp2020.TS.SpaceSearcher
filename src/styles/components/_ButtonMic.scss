@@ -1,0 +1,11 @@
+.button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 10px 10px rgba(147, 217, 215, 0.5);
+    &__icon {
+        color: #474035;
+        font-size: 3em;
+    }
+}
