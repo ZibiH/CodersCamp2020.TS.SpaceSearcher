@@ -1,1 +1,17 @@
 @import './reset';
+
+body {
+    background-image: url(..\static\170302main_image_feature_ys_768_full.jpg);
+    background-position: cover;
+    background-size: 100% auto; 
+  }
+
+  .wrapper {
+    background-color:white;
+    width: 100%;
+    height: 100vh;
+    opacity: 60%;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.3;
+  }
